@@ -13,7 +13,7 @@ function studentGradeGenerator(grade) {
     } else if (grade >= 40 && grade <= 49) {
       //checks for the grade between 40 and 49
       return `${words} D`;
-    } else if (grade >= 39 && grade <= 0) {
+    } else if (grade >= 0 && grade <= 39) {
       //checks for the grade between 39 and 0
       return `${words} E`;
     } else {
