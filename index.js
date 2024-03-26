@@ -130,7 +130,7 @@ function netSalaryCalculator(basicSalary, benefits) {
     }
   }
   // storing the total amount after all the taxations
-  const netSalary = total - (payee(taxablePay) - deductions);
+  const netSalary = total - (payee(taxablePay) + deductions);
   //printing out the results
   console.log(`Your gross salary is ${total}`);
   console.log(`Your Net salary is ${netSalary}`);
